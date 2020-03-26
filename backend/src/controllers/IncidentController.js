@@ -9,7 +9,7 @@ module.exports = {
       value,
       ong_id
     });
-    return response.jeson({ id });
+    return response.json({ id });
   },
   async index(request, response) {
     const { page = 1 } = request.query;
